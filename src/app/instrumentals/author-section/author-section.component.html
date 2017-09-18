@@ -1,0 +1,19 @@
+<div class="section">
+  
+    <div class="row">
+       <div class="col s12 m12 l12 xs6 center-align">
+         <h2 class="author-name"> {{author.name}} </h2>
+         <img class="logo" src="" class="responsive-img"> <!-- author's path-logo -->
+       </div>
+    </div>
+  
+    <div class="container"> <div class="divider"> </div> </div>
+  
+    <br><br>
+  
+    <div class="row author" id="track_component"> 
+        <app-track *ngFor="let track of author.tracklist" [track]="track"></app-track>
+    </div>
+  </div>
+  
+  <div class="container"> <div class="divider"> </div> </div>

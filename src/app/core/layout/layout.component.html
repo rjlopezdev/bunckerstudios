@@ -1,0 +1,34 @@
+<div class="navbar-fixed">
+  <nav>
+     <div class="nav-wrapper">
+        <a class="brand-logo nav-logo hide-on-med-and-up"><img class="responsive-img" src="assets/images/logo/logoB.png"></a>
+        <a id="logo" class="brand-logo nav-logo hide-on-small-and-down"><img class="responsive-img" src="assets/images/logo/logo.png"></a>
+        <a materialize="sideNav" href="#" class="button-collapse" data-activates="sidenav" data-sidenav="left" data-menuwidth="500" data-closeonclick="false">
+           <i class="material-icons">menu</i>
+       </a>
+        <ul class="right hide-on-med-and-down">
+           <li routerLink=""><a>{{'navbar.home' | translate}}<i class="material-icons right-align left">home</i></a></li>
+           <li [routerLinkActive]="['active']" routerLink="sound"><a>{{'navbar.sound' | translate}}<i class="material-icons right-align left">queue_music</i></a></li>
+           <li [routerLinkActive]="['active']" routerLink="gallery"><a>{{'navbar.gallery' | translate}}<i class="material-icons right-align left">perm_media</i> </a></li>
+           <li [routerLinkActive]="['active']" routerLink="instrumentals"><a>{{'navbar.instrumentals' | translate}}<i class="material-icons right-align left">queue_music</i></a></li>
+           <li [routerLinkActive]="['active']" routerLink="contact"><a>{{'navbar.contact' | translate}}<i class="material-icons right-align left">email</i></a></li>
+           <!-- <li [routerLinkActive]="['active']" routerLink="about"><a>{{'navbar.about' | translate}}<i class="material-icons right-align left">info_outline</i></a></li> -->
+        </ul>
+     </div>
+  </nav>
+</div>
+
+<ul class="side-nav" id="sidenav" materialize="sideNav">
+  <li routerLink=""><a>{{'navbar.home'| translate}}<i class="material-icons right-align left a">home</i></a></li>
+  <li [routerLinkActive]="['active']" routerLink="sound"><a>{{'navbar.sound'| translate}}<i class="material-icons right-align left">queue_music</i></a></li>
+  <li [routerLinkActive]="['active']" routerLink="gallery"><a>{{'navbar.gallery'| translate}}<i class="material-icons right-align left">perm_media</i></a></li>
+  <li [routerLinkActive]="['active']" routerLink="instrumentals"><a>{{'navbar.instrumentals'| translate}}<i class="material-icons right-align left">queue_music</i></a></li>
+  <li [routerLinkActive]="['active']" routerLink="contact"><a>{{'navbar.contact'| translate}}<i class="material-icons right-align left">email</i></a></li>
+  <!-- <li [routerLinkActive]="['active']" routerLink="about"><a>{{'navbar.about'| translate}}<i class="material-icons right-align left">info_outline</i></a></li> -->
+  <br>
+  <li class="center-align nav-logo"><a class="brand-logo"><img src="assets/images/logo/logoB.png"/></a></li>
+  <br>
+  <li class="center-align"><a>@2016</a></li>
+</ul>
+
+<router-outlet></router-outlet>

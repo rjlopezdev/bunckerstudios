@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Kinder Malo",
+		"image_url": "logo_bling.png",
+		"tracklist": [
+			{
+				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
+				"buy": true
+			},
+			{
+				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
+				"buy": true
+			},
+			{
+				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
+				"buy": true
+			}
+		]
+	},
+	{
+		"id": "djrainek",
+		"name": "Dj Rainek",
+		"logo": "logo_bling.png",
+		"tracklist": [
+			{
+				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
+				"buy": true
+			},
+			{
+				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
+				"buy": true
+			},
+			{
+				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
+				"buy": true
+			}
+		]
+	}
+
+]

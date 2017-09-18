@@ -1,0 +1,24 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "sound": "Sonido",
+        "gallery": "Galería",
+        "instrumentals": "Instrumentales",
+        "contact": "Contacto",
+        "about": "Acerca de"
+
+    },
+    "footer": {
+        "copyright": "© 2016 BUNCKER STUDIOS"
+    },
+    "contact": {
+        "contact_us": "¡Contáctanos!",
+        "name": "Nombre",
+        "subject": "Asunto",
+        "email": "Correo",
+        "message": "Tu mensaje",
+        "use_terms": "Acepto los términos y condiciones de uso",
+        "send": "Enviar"
+    },
+    "download_button": "Descargar"
+}

@@ -1,0 +1,25 @@
+#logo-portada {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#btn-youtube:hover {
+  background-color: #F44336;
+}
+
+#btn-contact:hover {
+  background-color: #2196F3;
+}
+
+#btn-instagram:hover {
+  background-color: #FF9800;
+}
+
+#social-container a{
+  margin-right: 15px;
+  background-color: #757575;
+}

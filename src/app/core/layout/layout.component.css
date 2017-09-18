@@ -1,0 +1,16 @@
+nav {
+    font-weight: bold;
+  }
+  
+nav {
+    background-color: #757575;
+}
+  
+li {
+    text-transform: uppercase;
+}
+
+#logo {
+  padding-left: 5px;
+  padding-top: 5px;
+}

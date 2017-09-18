@@ -1,0 +1,21 @@
+<div class="col s12 m6 l4 center-align">
+  <!-- Preloader -->
+  <div class="col s2 offset-s5" [hidden] = "!false ? true : null">
+      <div class="progress preloader">
+        <div class="indeterminate"></div>
+      </div>
+  </div>
+  <!-- Bandcamp iframe -->
+  <iframe #iframe 
+          class = "embed"
+          style = "border: 0; width: 100%; height: 120px;"
+          [src] = "track.url"
+          seamless>
+    <a class="" href=""> </a>
+  </iframe>
+  <!-- Download Button -->
+  <a class="link-button waves-effect waves-light btn download-btn black link_to_file">
+    {{'download_button' | translate}}<i class="icon-button material-icons left">file_download</i>
+  </a>
+
+</div>
