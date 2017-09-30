@@ -1,11 +1,12 @@
 [
 	{
-		"name": "Kinder Malo",
-		"image_url": "logo_bling.png",
+		"name": "RainekProds",
+		"image_url": "logo_rainekprods.png",
 		"tracklist": [
 			{
-				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",
-				"buy": true
+				"url": "https://bandcamp.com/EmbeddedPlayer/track=936898708/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/",
+				"buy": true,
+				"download": "https://popplers5.bandcamp.com/download/track?enc=wav&fsig=cdbe38bc0360c5e750b7bdff53bb5e40&id=936898708&ts=1506181722.3482498165"
 			},
 			{
 				"url": "https://bandcamp.com/EmbeddedPlayer/album=1802322618/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3005813315/transparent=true/",

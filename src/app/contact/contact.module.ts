@@ -5,6 +5,7 @@ import { CoreModule } from '../core/core.module';
 import { FormsModule }   from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { routes } from './routes';
+import { FormServiceService } from '../core/services/form-service/form-service.service';
 
 @NgModule({
   imports: [
@@ -13,6 +14,9 @@ import { routes } from './routes';
     FormsModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [ContactComponent]
+  declarations: [ContactComponent],
+  providers: [
+    FormServiceService
+  ]
 })
 export class ContactModule { }

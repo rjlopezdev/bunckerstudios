@@ -1,3 +1,15 @@
 footer {
-    background-color: #757575;
-  }
+    background-color: #424242;
+}
+
+a{
+  color: white;
+}
+
+.zmdi {
+  padding-right: 7px;
+}
+
+.zmdi-instagram{
+  font-size: 1.8em;
+}

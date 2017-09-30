@@ -3,7 +3,7 @@ nav {
   }
   
 nav {
-    background-color: #757575;
+    background-color: #424242;
 }
   
 li {
@@ -11,6 +11,6 @@ li {
 }
 
 #logo {
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 20px;
+  padding-top: 8px;
 }

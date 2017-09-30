@@ -22,13 +22,14 @@
   <li routerLink=""><a>{{'navbar.home'| translate}}<i class="material-icons right-align left a">home</i></a></li>
   <li [routerLinkActive]="['active']" routerLink="sound"><a>{{'navbar.sound'| translate}}<i class="material-icons right-align left">queue_music</i></a></li>
   <li [routerLinkActive]="['active']" routerLink="gallery"><a>{{'navbar.gallery'| translate}}<i class="material-icons right-align left">perm_media</i></a></li>
-  <li [routerLinkActive]="['active']" routerLink="instrumentals"><a>{{'navbar.instrumentals'| translate}}<i class="material-icons right-align left">queue_music</i></a></li>
+  <!--<li [routerLinkActive]="['active']" routerLink="instrumentals"><a>{{'navbar.instrumentals'| translate}}<i class="material-icons right-align left">queue_music</i></a></li> -->
   <li [routerLinkActive]="['active']" routerLink="contact"><a>{{'navbar.contact'| translate}}<i class="material-icons right-align left">email</i></a></li>
   <!-- <li [routerLinkActive]="['active']" routerLink="about"><a>{{'navbar.about'| translate}}<i class="material-icons right-align left">info_outline</i></a></li> -->
   <br>
   <li class="center-align nav-logo"><a class="brand-logo"><img src="assets/images/logo/logoB.png"/></a></li>
   <br>
   <li class="center-align"><a>@2016</a></li>
+  <a data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 </ul>
 
 <router-outlet></router-outlet>

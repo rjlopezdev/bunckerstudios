@@ -18,7 +18,7 @@ export function createTranslateLoader(http: Http) {
   imports: [
     BrowserModule,
     CoreModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, {useHash: true}),
     TranslateModule.forRoot({
       provide: TranslateLoader,
       useFactory: (createTranslateLoader),

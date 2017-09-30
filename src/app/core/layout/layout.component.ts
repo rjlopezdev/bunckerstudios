@@ -15,7 +15,7 @@ export class LayoutComponent implements OnInit {
   }
 
   ngOnInit() {
-    $('.side-nav').sideNav();
+    $('.button-collapse').sideNav();
   }
 
   ngAfterViewInit() {

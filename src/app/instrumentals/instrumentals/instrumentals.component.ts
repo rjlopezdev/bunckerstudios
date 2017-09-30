@@ -10,7 +10,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class InstrumentalsComponent implements OnInit {
 
-  private _authors : Observable<Author[]>;
+  public _authors : Observable<Author[]>;
 
   constructor(private _dbservice : DatabaseService) { }
 

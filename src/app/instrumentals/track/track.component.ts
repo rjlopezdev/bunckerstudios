@@ -35,9 +35,7 @@ export class TrackComponent implements OnInit {
       this.iframe.nativeElement.addEventListener('load', this.onLoad.bind(this));
     }
 
-    onLoad(e) {
-        console.log('onLoad executed', e);
-    }
+    onLoad(e) { }
   
   }
   
